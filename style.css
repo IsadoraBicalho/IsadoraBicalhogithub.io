@@ -1,6 +1,10 @@
 /* ================================
    Global Styles
 ================================ */
+html {
+  scroll-behavior: smooth; /* smooth scroll effect */
+}
+
 body {
   font-family: 'Segoe UI', Roboto, Arial, sans-serif;
   color: #333;
