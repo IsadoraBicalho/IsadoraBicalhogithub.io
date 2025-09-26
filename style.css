@@ -1,10 +1,51 @@
-/* General reset */
+/* Starry background effect */
 body {
   font-family: 'Arial', sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #0b0c10; /* dark space background */
-  color: #eee; /* light text */
+  background: #0b0c10;
+  color: #eee;
+  overflow-x: hidden;
+}
+
+/* Stars layers */
+body::before, body::after {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 200%;
+  height: 200%;
+  background-repeat: repeat;
+  background-size: 200px 200px;
+  z-index: -1;
+  animation: moveStars 100s linear infinite;
+}
+
+/* First layer (small stars) */
+body::before {
+  background-image: radial-gradient(2px 2px at 20px 20px, white, transparent),
+                    radial-gradient(2px 2px at 100px 150px, #d1a3ff, transparent),
+                    radial-gradient(2px 2px at 150px 50px, #bb86fc, transparent),
+                    radial-gradient(2px 2px at 200px 100px, white, transparent);
+  opacity: 0.5;
+  animation-duration: 200s;
+}
+
+/* Second layer (brighter stars) */
+body::after {
+  background-image: radial-gradient(1.5px 1.5px at 30px 40px, #ffccff, transparent),
+                    radial-gradient(2px 2px at 120px 80px, white, transparent),
+                    radial-gradient(2.5px 2.5px at 60px 160px, #d1a3ff, transparent),
+                    radial-gradient(1.5px 1.5px at 180px 120px, white, transparent);
+  opacity: 0.8;
+  animation-duration: 300s;
+}
+
+/* Star movement animation */
+@keyframes moveStars {
+  from { transform: translate(0, 0); }
+  to { transform: translate(-500px, -500px); }
 }
 
 /* Navbar */
@@ -26,6 +67,8 @@ header {
   color: white;
   text-align: center;
   padding: 100px 20px 60px;
+  position: relative;
+  z-index: 1;
 }
 header h1 {
   font-size: 3rem;
@@ -53,6 +96,8 @@ header p {
 /* Section */
 section {
   padding: 80px 0;
+  position: relative;
+  z-index: 1;
 }
 .section-title {
   text-align: center;
@@ -93,6 +138,8 @@ footer {
   color: white;
   text-align: center;
   padding: 20px;
+  position: relative;
+  z-index: 1;
 }
 
 /* Animations */
