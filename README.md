@@ -10,7 +10,7 @@ I’m Isadora, a Data Scientist based in São Paulo, Brazil, focused on numbers,
 * 💬 Ask me about data modeling, data analysis, statistics, and astronomy
 * 📫 How to reach me: LinkedIn https://www.linkedin.com/in/isadora-chaves-668224b6/
 * ❤️ I enjoy learning new technologies and sharing knowledge through collaboration and mentoring
-* ⚡ Fun fact: I’m a proud geek and otaku who enjoys learning through games, anime, and technology
+* ⚡ Fun fact: I’m a proud geek and otaku who enjoys learning through manga, comics, anime, and technology
 
 ---
 
