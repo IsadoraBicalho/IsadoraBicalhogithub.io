@@ -18,9 +18,9 @@ I’m Isadora, a Data Scientist based in São Paulo, Brazil, focused on numbers,
 - **Databases:** MySQL, PostgreSQL, SQL Server  
 - **Languages:** SQL, Python  
 - **Concepts:** Big Data, Data Cleaning  
-- **Tools:** Git, Docker, Cloud Platforms (GCP)
-
+- **Tools:** Git, Docker, Cloud Platforms (GCP), Trello (and similar PMO tools)
+- **Visualization:** Power BI, Tableau
 ---
 
 ### 🎯 Career Focus
-Data Scients • Database Administration • Data Analytics
+Data Scients • Database Cleaning • Data Analytics • Big Data
